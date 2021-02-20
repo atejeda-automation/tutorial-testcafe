@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./src/tests/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "allure-commandline": "^2.13.8",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "faker": "^5.4.0",
+    "testcafe": "^1.11.0",
+    "testcafe-reporter-allure-expanded": "^1.1.0"
+  }
+}
